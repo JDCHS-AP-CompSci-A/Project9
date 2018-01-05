@@ -18,11 +18,12 @@ public class Project9 {
      */
     public static void main(String[] args) {
         Instrument kazoo = new Kazoo();
+        Instrument cowbell = new Cowbell();
 
         //add your new instrument to this list
         ArrayList<Instrument> orchestra =  new ArrayList<Instrument>();
         orchestra.add(kazoo);
-        
+        orchestra.add(cowbell);
         System.out.println("Welcome to the orchestra, please sit back... relax and enjoy!\n");
         System.out.println("We will be playing the following instruments.\n");
 
